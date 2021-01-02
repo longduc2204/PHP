@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* header */
+
+.header-logo {
+    width: 200px;
+    height: 40px;
+}
+
+.header {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.header-time {
+    margin-top: 11.3px;
+    margin-left: 37px;
+}
+
+.horizontal {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    opacity: 0.35;
+}
+
+.header-login {
+    margin-left: 830px;
+    margin-top: 11.3px;
+    display: flex;
+}
+
+.link-login:link,
+.link-login:visited {
+    background-color: rgb(42, 113, 245);
+    color: white;
+    padding: 1px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: -3px;
+    margin-left: 5px;
+}
+
+.link-login:hover,
+.link-login:active {
+    background-color: blue;
+}
+
+
+/* content */
+
+.exam-container {
+    display: flex;
+    background: #ab7bb0;
+    padding: 4px;
+}
+
+.exam-element {
+    margin: 1px;
+    color: black;
+    min-height: 15px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.content-table {
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-category {
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.style-content {
+    padding: 10px;
+    width: 10%;
+}
+
+.style-content2 {
+    padding: 10px;
+    width: 70%;
+}
+
+
+/* end */
